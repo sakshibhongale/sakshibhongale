@@ -32,20 +32,24 @@
             max-width: 100%;
             height: auto;
         }
-        .contact-info, .social-links, .skills {
+        .social-links, .skills {
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
-        .social-links img {
-            margin-right: 10px;
+        .social-links img, .skills img {
+            margin: 10px;
             vertical-align: middle;
-        }
-        .skills img {
-            margin-right: 10px;
         }
         .highlight {
             color: #e74c3c;
             font-weight: bold;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
